@@ -1,0 +1,15 @@
+name: torch_render
+channels:
+  - defaults
+  - conda-forge  # For ffmpeg and Spacy
+dependencies:
+  - Python==3.7.10
+  - Numpy
+  - Scipy
+  - PyTorch
+  - Tqdm
+  - Pandas
+  #- pip:
+  - Matplotlib==3.3.4
+  - ffmpeg==4.3.1
+  # - Spacy==2.3.4 # This makes the solving process *extremely* slow

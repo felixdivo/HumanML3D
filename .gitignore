@@ -1,0 +1,4 @@
+.DS_Store
+
+/body_model/*
+!body_model/place_.tar.xz_file_here
