@@ -1,4 +1,15 @@
+# Basic stuff
 .DS_Store
+**/__pycache__
+**/*.pyc
 
-/body_model/*
+# Datasets & generated data
+/body_models/*
 !body_model/place_.tar.xz_file_here
+amass_data
+pose_data
+HumanML3D/new_joints
+!HumanML3D\new_joints\012314.npy
+HumanML3D/new_joint_vecs
+!HumanML3D\new_joint_vecs\012314.npy
+joints
